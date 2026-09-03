@@ -127,4 +127,20 @@ if review_clicked:
                 st.error(f"AI review failed: {e}")
 
 st.markdown("---")
-st.caption("Built with Streamlit · Pylint · Flake8 · OpenAI/Gemini APIs")
+
+st.markdown(
+    """
+    <div style="text-align: center; padding: 12px 0 8px 0;">
+        <div style="font-size: 18px; font-weight: 600;">
+            AI Code Review Assistant
+        </div>
+        <div style="font-size: 15px; margin-top: 6px;">
+            Designed &amp; developed by <strong>Haveesh B A</strong>
+        </div>
+        <div style="font-size: 12px; margin-top: 7px; opacity: 0.6;">
+            © 2026 Haveesh B A · All rights reserved
+        </div>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
